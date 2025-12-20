@@ -1,16 +1,70 @@
-# React + Vite
+# 📝 Todo App (React)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and mobile-friendly **Todo List Application** built using **React** and **plain CSS** as part of my **React Learning Journey**.
 
-Currently, two official plugins are available:
+This project demonstrates how to manage state using React hooks and how to persist data using the browser’s `localStorage`.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- ➕ Add new todos
+- ✅ Mark todos as completed
+- ❌ Delete individual todos
+- 💾 Persistent data using `localStorage`
+- 📱 Mobile-friendly & responsive UI
+- ⚛️ Built using React Functional Components
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+- React (Vite)
+- JavaScript (ES6)
+- CSS (Mobile-first design)
+- HTML
+
+---
+
+## 📚 Concepts Learned
+
+- `useState` for state management
+- `useEffect` for lifecycle handling
+- Array operations (`map`, `filter`)
+- Conditional rendering
+- Event handling
+- Data persistence using `localStorage`
+- Responsive UI using media queries
+
+---
+
+## 🔄 How It Works
+
+1. User enters a task and clicks **Add**
+2. Task is stored in React state (`useState`)
+3. Todos are saved in `localStorage`
+4. On page reload, todos are loaded from `localStorage`
+5. UI updates automatically based on state changes
+
+---
+
+## 📂 Project Structure
+todo-app/
+│
+├── src/
+│ ├── App.jsx
+│ ├── App.css
+│ ├── main.jsx
+│ └── index.css
+│
+├── package.json
+└── README.md
+
+---
+
+## ▶️ How to Run Locally
+
+```bash
+npm install
+npm run dev
+
